@@ -1,0 +1,50 @@
+# =========================
+# Unity (specific subfolder)
+# =========================
+
+# Ignore generated folders inside your Unity project
+first_unitysdkproject/[Ll]ibrary/
+first_unitysdkproject/[Tt]emp/
+first_unitysdkproject/[Oo]bj/
+first_unitysdkproject/[Bb]uild/
+first_unitysdkproject/[Bb]uilds/
+first_unitysdkproject/[Ll]ogs/
+first_unitysdkproject/[Uu]ser[Ss]ettings/
+
+# Keep important Unity folders
+!first_unitysdkproject/Assets/
+!first_unitysdkproject/ProjectSettings/
+!first_unitysdkproject/Packages/
+
+# Keep meta files (VERY IMPORTANT for Unity)
+!first_unitysdkproject/**/*.meta
+
+# =========================
+# IDE / OS junk
+# =========================
+
+# Windows
+Thumbs.db
+
+# Mac
+.DS_Store
+
+# Visual Studio / Rider
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# =========================
+# Optional
+# =========================
+
+# Crash reports
+sysinfo.txt
